@@ -1,0 +1,47 @@
+Practical Test
+The details of the Cakes of an organization are stored in the xml in the tabular format. The data of the Cakes with the following structure.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<bakery>
+    <cake>
+        <id isAvailable="true" cookingTime="60">1</id>
+        <name>Cake 1</name>
+        <description>Des 1</description>
+        <quantity>10</quantity>
+        <price>12</price>
+        <chef gender="Male">
+            <firstname>first</firstname>
+            <lastname>last</lastname>
+        </chef>
+    </cake>
+    <cake>
+        <id isAvailable="false" cookingTime="80">c2</id>
+        <name>Cake 2</name>
+        <description>Des 2</description>
+        <quantity>10</quantity>
+        <price>14</price>
+        <chef gender="Female">
+            <firstname>first</firstname>
+            <lastname>last</lastname>
+        </chef>
+    </cake>
+    <cake>
+        <id isAvailable="false" cookingTime="100">c3</id>
+        <name>Cake 3</name>
+        <description>Des 3</description>
+        <quantity>10</quantity>
+        <price>16</price>
+        <chef gender="Male">
+            <firstname>first</firstname>
+            <lastname>last</lastname>
+        </chef>
+    </cake>
+</bakery>
+Create a Java web application, which can be used to manage the Cakes.  The application initially displays a menu with the following options:
+1.  Add Cake. (4đ)
+When a user enters the first choice "Add Cake ", the application starts accepting all the details of the new Cake – and store it into an xml file – if cake is existed, the cake will be not insert to xml.
+
+2.  Search Cakes by from cookingTime to cookingTime. (4đ)
+For selecting the choice 2 to search Cakes by from cookingTime to cookingTime. If the application finds a match and check isAvailabe is True:
+•	The data grid of Cakes is shown with Number, Name, Price, cookingTime.
+3.  When user input id and click “Disable”, The attribute isAvailable changes false and quantity is 0 (4đ)

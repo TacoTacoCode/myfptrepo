@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bakery>
+    <cake>
+        <id isAvailable="true" cookingTime="60">1</id>
+        <name>Cake 1</name>
+        <description>Des 1</description>
+        <quantity>10</quantity>
+        <price>12</price>
+        <chef gender="Male">
+            <firstname>first</firstname>
+            <lastname>last</lastname>
+        </chef>
+    </cake>
+    <cake>
+        <id isAvailable="false" cookingTime="80">c2</id>
+        <name>Cake 2</name>
+        <description>Des 2</description>
+        <quantity>10</quantity>
+        <price>14</price>
+        <chef gender="Female">
+            <firstname>first</firstname>
+            <lastname>last</lastname>
+        </chef>
+    </cake>
+    <cake>
+        <id isAvailable="false" cookingTime="100">c3</id>
+        <name>Cake 3</name>
+        <description>Des 3</description>
+        <quantity>10</quantity>
+        <price>16</price>
+        <chef gender="Male">
+            <firstname>first</firstname>
+            <lastname>last</lastname>
+        </chef>
+    </cake>
+</bakery>
